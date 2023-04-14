@@ -7,6 +7,7 @@ export default defineConfig({
     plugins: [react(), checker({ typescript: true })],
     server: {
         port: 3000,
+        open: 'index.html',
     },
     css: {
         devSourcemap: true,
